@@ -103,7 +103,7 @@ public class Glavna {
         for(int i = 0;i<BROJ_PREDMETA;i++){
             predmeti[i] = new Predmet(tempSifra[i], tempNaziv[i], tempECTS[i], profesori[tempOdabirProfesora[i]-1], studenti);
         }
-        //TO DO
+
         return predmeti;
     }
 
@@ -171,7 +171,7 @@ public class Glavna {
                 System.out.println("Student " + izvrsniStudenti[brojIzvrsnihStudenata-1].getIme() + " " + izvrsniStudenti[brojIzvrsnihStudenata-1].getPrezime() + " je ostvario ocjenu 'izvrstan' na predmetu '" + ispiti[i].getPredmet().getNaziv() + "'");
             }
         }
-
+        System.out.println("KRAJ");
 
 
     }
